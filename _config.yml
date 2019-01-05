@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Casey Hagen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile-photo.jpg"
   bio              : "Husband, father of three, Navy Hospital Corpsman, front-end web enthusiast, Pokemon Trainer."
   location         : "Zushi, Japan"
   email            :
@@ -114,7 +114,7 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "http://hagendev.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/aechagen"
