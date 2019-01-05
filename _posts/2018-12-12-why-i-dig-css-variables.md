@@ -2,7 +2,7 @@
 layout: posts
 title: Why I Dig CSS Variables
 date: 2018-12-12
-categories: [webdev, tutorial]
+categories: [webdev]
 share: true
 ---
 

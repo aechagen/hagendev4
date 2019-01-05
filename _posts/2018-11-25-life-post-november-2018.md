@@ -2,6 +2,7 @@
 layout: posts
 title: Life Post - November 2018
 date: 2018-11-25
+categories: [life]
 ---
 *Spoiler alert:* This a long-winded post about my life at this point.
 
