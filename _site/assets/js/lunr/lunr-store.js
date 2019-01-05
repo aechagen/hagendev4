@@ -8,4 +8,9 @@ var store = [{
         "excerpt":"I dig CSS variables. I had no idea such a cool thing existed before I came across them in FreeCodeCamp’s Responsive Web Design certification, but after refactoring the CSS for this site using them, I love it. I’ll admit, my admiration for CSS variables came entirely from my being extremely...","categories": ["webdev"],
         "tags": [],
         "url": "http://localhost:4000/webdev/why-i-dig-css-variables/",
+        "teaser":null},{
+        "title": "Web Development Environment on Windows",
+        "excerpt":"In honor of the new year, I decided to re-install Windows on my laptop - It’s sort of a “New Year, New Me” deal for my computer. I had only done a couple times before, both times being within the first few months I purchased my Surface Pro 2017 back...","categories": ["life"],
+        "tags": [],
+        "url": "http://localhost:4000/life/web-development-on-windows/",
         "teaser":null}]

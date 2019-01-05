@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-05T20:03:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HagenDev</title><subtitle>A personal website and blog for Casey Hagen.</subtitle><author><name>Casey Hagen</name></author><entry><title type="html">Why I Dig CSS Variables</title><link href="http://localhost:4000/webdev/why-i-dig-css-variables/" rel="alternate" type="text/html" title="Why I Dig CSS Variables" /><published>2018-12-12T00:00:00+09:00</published><updated>2018-12-12T00:00:00+09:00</updated><id>http://localhost:4000/webdev/why-i-dig-css-variables</id><content type="html" xml:base="http://localhost:4000/webdev/why-i-dig-css-variables/">&lt;p&gt;I dig CSS variables. I had no idea such a cool thing existed before I came across them in FreeCodeCamp’s Responsive Web Design certification, but after refactoring the CSS for this site using them, I love it. I’ll admit, my admiration for CSS variables came entirely from my being extremely lazy to learn how to use SCSS with WordPress, but hey. It’s something new to me, and I enjoy it. Lets talk about it!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-06T08:56:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HagenDev</title><subtitle>A personal website and blog for Casey Hagen.</subtitle><author><name>Casey Hagen</name></author><entry><title type="html">Web Development Environment on Windows</title><link href="http://localhost:4000/life/web-development-on-windows/" rel="alternate" type="text/html" title="Web Development Environment on Windows" /><published>2019-01-06T00:00:00+09:00</published><updated>2019-01-06T00:00:00+09:00</updated><id>http://localhost:4000/life/web-development-on-windows</id><content type="html" xml:base="http://localhost:4000/life/web-development-on-windows/">&lt;p&gt;In honor of the new year, I decided to re-install Windows on my laptop - It’s sort of a “New Year, New Me” deal for my computer. I had only done a couple times before, both times being within the first few months I purchased my Surface Pro 2017 back in August last year. Despite the rocky start, I stuck with it, and I’ve enjoyed every minute of using my laptop for every task I throw at it, from coding to my online classes, to even running chess engines and doodling with One Note. But I digress.&lt;/p&gt;
+
+&lt;p&gt;This aim of this post is to show how got my web development environment up and running for the new year. I haven’t seen very many tutorials on the subject, so I hope I can bring something new to the table.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-linux-on-windows&quot;&gt;Installing Linux on Windows&lt;/h2&gt;
+
+&lt;p&gt;The first step, regardless if you’ve got a newly installed OS or not, is to install Linux on your current Windows OS. I just followed the steps from &lt;a href=&quot;https://aka.ms/wslinstall&quot;&gt;https://aka.ms/wslinstall&lt;/a&gt;. TL;DR? Open up Powershell by right-clicking the Windows start icon and clicking “Windows Powershell (Admin)” and enter the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, head over to the Windows store and pick your favorite flavor of Linux. I chose Ubuntu because I’ve worked with it before. Follow the steps to install, launch Ubuntu and set up a username and password for sudo. Congratulations, you’ve installed Linux on Windows!&lt;/p&gt;
+
+&lt;h2 id=&quot;code-editors-on-code-editors-on-code-editors&quot;&gt;Code Editors on Code Editors on Code Editors&lt;/h2&gt;
+
+&lt;p&gt;There are a ton of different code editors out there. When I first started out learning to code, I used &lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; religiously. Since then, I’ve dabbled with &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; and &lt;a href=&quot;http://brackets.io/&quot;&gt;Brackets&lt;/a&gt;, but I’ve finally landed on &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;, and I couldn’t be happier. You can pick whichever you’re the most comfortable with, but for this post, I’ll be going over VS Code.&lt;/p&gt;
+
+&lt;p&gt;Head over to the &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code website to download&lt;/a&gt;. Juggling two operating systems might be a little confusing, but you want to install the Windows version.. It’s easier that way.&lt;/p&gt;
+
+&lt;h2 id=&quot;git-for-windows&quot;&gt;Git for Windows&lt;/h2&gt;
+
+&lt;p&gt;Download Git for Windows &lt;a href=&quot;https://git-scm.com/&quot;&gt;here&lt;/a&gt; and follow the prompts to install. Here are some of the options I changed:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Checked “Don’t create a Start Menu folder”&lt;/li&gt;
+  &lt;li&gt;Checked “Use VIM as Git’s default editor”&lt;/li&gt;
+  &lt;li&gt;Checked “Use Git from the Windows Command Prompt”&lt;/li&gt;
+  &lt;li&gt;Checked “Use the OpenSSL library”&lt;/li&gt;
+  &lt;li&gt;Selected “Checkout as-is, commit Unix-style endings”&lt;/li&gt;
+  &lt;li&gt;Seleceted “Use Windows default console window”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;using-bash-with-vs-code&quot;&gt;Using Bash with VS Code&lt;/h2&gt;
+
+&lt;p&gt;The last piece of setup with VS Code we’ll do is setting the default terminal to Bash. To do this, just open File -&amp;gt; Settings and add this rule:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;terminal.integrated.shell.windows&quot;: &quot;C:\\Windows\\System32\\bash.exe&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Reload VS code and activate the terminal with CTRL + `. Alternatively, you can search “Integrated Terminal” in the Command Palette.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-git-node-ruby-and-jekyll&quot;&gt;Install Git, Node, Ruby and Jekyll&lt;/h2&gt;
+
+&lt;p&gt;I know what you’re thinking. “I just installed Git!” .. Well, you’re right. We installed Git for Windows, now we need to install it on our Linux distro so that we can use Git from inside Bash.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install git
+git config --global user.email &quot;you@email.com&quot;
+git config --global user.name &quot;Your Name&quot;
+git config --global core.autocrlf input
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In addition to this, you’ll want to make sure to add an &lt;a href=&quot;https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux&quot;&gt;SSH key&lt;/a&gt; to Github using the Linux instructions.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-node&quot;&gt;Installing Node&lt;/h2&gt;
+
+&lt;p&gt;Another easy install.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;installing-ruby-and-jekyll&quot;&gt;Installing Ruby and Jekyll&lt;/h2&gt;
+
+&lt;p&gt;To keep it short and sweet, I followed the instructions on the &lt;a href=&quot;https://jekyllrb.com/docs/installation/windows/&quot;&gt;Jekyll website&lt;/a&gt; to install Ruby and Jekyll. If you don’t use Jekyll or Ruby at all, feel free to stop there.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-thats-it&quot;&gt;And That’s It!&lt;/h2&gt;
+
+&lt;p&gt;Hopefully this helped out a little bit with getting your new environment up and running. When I first made the switch to Windows from the usual Mac environment for development last year, I was skeptical, but I’ve enjoyed every minute of the transition. I can’t wait to continue learning about the web in 2019!&lt;/p&gt;</content><author><name>Casey Hagen</name></author><summary type="html">In honor of the new year, I decided to re-install Windows on my laptop - It’s sort of a “New Year, New Me” deal for my computer. I had only done a couple times before, both times being within the first few months I purchased my Surface Pro 2017 back in August last year. Despite the rocky start, I stuck with it, and I’ve enjoyed every minute of using my laptop for every task I throw at it, from coding to my online classes, to even running chess engines and doodling with One Note. But I digress. This aim of this post is to show how got my web development environment up and running for the new year. I haven’t seen very many tutorials on the subject, so I hope I can bring something new to the table. Installing Linux on Windows The first step, regardless if you’ve got a newly installed OS or not, is to install Linux on your current Windows OS. I just followed the steps from https://aka.ms/wslinstall. TL;DR? Open up Powershell by right-clicking the Windows start icon and clicking “Windows Powershell (Admin)” and enter the following command: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux Next, head over to the Windows store and pick your favorite flavor of Linux. I chose Ubuntu because I’ve worked with it before. Follow the steps to install, launch Ubuntu and set up a username and password for sudo. Congratulations, you’ve installed Linux on Windows! Code Editors on Code Editors on Code Editors There are a ton of different code editors out there. When I first started out learning to code, I used Sublime Text religiously. Since then, I’ve dabbled with Atom and Brackets, but I’ve finally landed on Visual Studio Code, and I couldn’t be happier. You can pick whichever you’re the most comfortable with, but for this post, I’ll be going over VS Code. Head over to the Visual Studio Code website to download. Juggling two operating systems might be a little confusing, but you want to install the Windows version.. It’s easier that way. Git for Windows Download Git for Windows here and follow the prompts to install. Here are some of the options I changed: Checked “Don’t create a Start Menu folder” Checked “Use VIM as Git’s default editor” Checked “Use Git from the Windows Command Prompt” Checked “Use the OpenSSL library” Selected “Checkout as-is, commit Unix-style endings” Seleceted “Use Windows default console window” Using Bash with VS Code The last piece of setup with VS Code we’ll do is setting the default terminal to Bash. To do this, just open File -&amp;gt; Settings and add this rule: &quot;terminal.integrated.shell.windows&quot;: &quot;C:\\Windows\\System32\\bash.exe&quot; Reload VS code and activate the terminal with CTRL + `. Alternatively, you can search “Integrated Terminal” in the Command Palette. Install Git, Node, Ruby and Jekyll I know what you’re thinking. “I just installed Git!” .. Well, you’re right. We installed Git for Windows, now we need to install it on our Linux distro so that we can use Git from inside Bash. sudo apt install git git config --global user.email &quot;you@email.com&quot; git config --global user.name &quot;Your Name&quot; git config --global core.autocrlf input In addition to this, you’ll want to make sure to add an SSH key to Github using the Linux instructions. Installing Node Another easy install. curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash source ~/.bashrc nvm install --lts Installing Ruby and Jekyll To keep it short and sweet, I followed the instructions on the Jekyll website to install Ruby and Jekyll. If you don’t use Jekyll or Ruby at all, feel free to stop there. And That’s It! Hopefully this helped out a little bit with getting your new environment up and running. When I first made the switch to Windows from the usual Mac environment for development last year, I was skeptical, but I’ve enjoyed every minute of the transition. I can’t wait to continue learning about the web in 2019!</summary></entry><entry><title type="html">Why I Dig CSS Variables</title><link href="http://localhost:4000/webdev/why-i-dig-css-variables/" rel="alternate" type="text/html" title="Why I Dig CSS Variables" /><published>2018-12-12T00:00:00+09:00</published><updated>2018-12-12T00:00:00+09:00</updated><id>http://localhost:4000/webdev/why-i-dig-css-variables</id><content type="html" xml:base="http://localhost:4000/webdev/why-i-dig-css-variables/">&lt;p&gt;I dig CSS variables. I had no idea such a cool thing existed before I came across them in FreeCodeCamp’s Responsive Web Design certification, but after refactoring the CSS for this site using them, I love it. I’ll admit, my admiration for CSS variables came entirely from my being extremely lazy to learn how to use SCSS with WordPress, but hey. It’s something new to me, and I enjoy it. Lets talk about it!&lt;/p&gt;
 
 &lt;p&gt;CSS variables can be extremely useful in reducing repetition in CSS, and in advanced cases, they can be used for cool effects like theme switching.&lt;/p&gt;
 
