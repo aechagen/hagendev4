@@ -8,9 +8,4 @@ var store = [{
         "excerpt":"I dig CSS variables. I had no idea such a cool thing existed before I came across them in FreeCodeCamp’s Responsive Web Design certification, but after refactoring the CSS for this site using them, I love it. I’ll admit, my admiration for CSS variables came entirely from my being extremely...","categories": ["webdev"],
         "tags": [],
         "url": "http://localhost:4000/webdev/why-i-dig-css-variables/",
-        "teaser":null},{
-        "title": "Twenty Eighteen",
-        "excerpt":" ","categories": ["life"],
-        "tags": [],
-        "url": "http://localhost:4000/life/twenty-eighteen/",
         "teaser":null}]

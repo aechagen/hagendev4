@@ -4,6 +4,8 @@ title: Why I Dig CSS Variables
 date: 2018-12-12
 categories: [webdev]
 share: true
+# header:
+  # image: /assets/images/profile-photo.jpg
 ---
 
 I dig CSS variables. I had no idea such a cool thing existed before I came across them in FreeCodeCamp’s Responsive Web Design certification, but after refactoring the CSS for this site using them, I love it. I’ll admit, my admiration for CSS variables came entirely from my being extremely lazy to learn how to use SCSS with WordPress, but hey. It’s something new to me, and I enjoy it. Lets talk about it!
