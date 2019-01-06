@@ -9,8 +9,8 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/webdev/why-i-dig-css-variables/",
         "teaser":null},{
-        "title": "Web Development Environment on Windows",
-        "excerpt":"In honor of the new year, I decided to re-install Windows on my laptop - It’s sort of a “New Year, New Me” deal for my computer. I had only done a couple times before, both times being within the first few months I purchased my Surface Pro 2017 back...","categories": ["life"],
+        "title": "Twenty Eighteen",
+        "excerpt":"The good stuff I had a lot of good times in 2018. To kick it off, our youngest son Evan was born. It was a tough road getting home after his birth, because myself, Elijah and Ethan all came down with the flu right after he was born. We were...","categories": ["life"],
         "tags": [],
-        "url": "http://localhost:4000/life/web-development-on-windows/",
+        "url": "http://localhost:4000/life/twenty-eighteen/",
         "teaser":null}]
