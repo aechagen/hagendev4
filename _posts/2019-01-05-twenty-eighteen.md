@@ -24,6 +24,7 @@ As for tangible and measurable goals, here we go:
 - Date night once per month
 - Read 10 books
 - Bike to work at least once per week
+- Cook something **new** once per week
 - Run enough to earn my Harry Potter Running Club medals from 2017. Yes, from 2017. 
   - Mad-Eye Moody Constant Vigilance 5K
   - Hogwarts Running Club 9 3/4K
