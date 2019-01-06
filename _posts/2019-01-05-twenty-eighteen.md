@@ -6,6 +6,7 @@ categories: [life]
 # published: false
 # header:
 #   image: /assets/images/profile-photo.jpg
+header-img: "/assets/images/profile-photo.jpg"
 ---
 
 ## The good stuff
