@@ -6,7 +6,7 @@ categories: [life]
 # published: false
 # header:
 #   image: /assets/images/profile-photo.jpg
-header-img: "/assets/images/new-years.jpg" # Lets you pick Facebook shared image. Coolio.
+header-img: "/assets/images/new-years1.jpg" # Lets you pick Facebook shared image. Coolio.
 ---
 
 ## The good stuff
