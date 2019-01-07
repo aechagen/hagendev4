@@ -1,9 +1,9 @@
 ---
 layout: posts
-title: Web Development Environment on Windows
-date: 2019-01-06
+title: My Web Development Environment on Windows
+date: 2019-01-08
 categories: [webdev]
-published: false
+# published: false
 header:
   image: /assets/images/laptop-desktop.jpg
 ---
